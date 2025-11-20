@@ -1,0 +1,358 @@
+{
+  "venueId": "arena-01",
+  "name": "Metropolis Arena",
+  "map": {
+    "width": 1024,
+    "height": 768
+  },
+  "sections": [
+    {
+      "id": "A",
+      "label": "Lower Bowl A",
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
+      "rows": [
+        {
+          "index": 1,
+          "seats": [
+            {
+              "id": "A-1-01",
+              "col": 1,
+              "x": 50,
+              "y": 40,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-02",
+              "col": 2,
+              "x": 80,
+              "y": 40,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-03",
+              "col": 3,
+              "x": 110,
+              "y": 40,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-04",
+              "col": 4,
+              "x": 140,
+              "y": 40,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-05",
+              "col": 5,
+              "x": 170,
+              "y": 40,
+              "priceTier": 1,
+              "status": "sold"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "seats": [
+            {
+              "id": "A-2-01",
+              "col": 1,
+              "x": 50,
+              "y": 70,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "A-2-02",
+              "col": 2,
+              "x": 80,
+              "y": 70,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "A-2-03",
+              "col": 3,
+              "x": 110,
+              "y": 70,
+              "priceTier": 2,
+              "status": "held"
+            },
+            {
+              "id": "A-2-04",
+              "col": 4,
+              "x": 140,
+              "y": 70,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "A-2-05",
+              "col": 5,
+              "x": 170,
+              "y": 70,
+              "priceTier": 2,
+              "status": "available"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "seats": [
+            {
+              "id": "A-3-01",
+              "col": 1,
+              "x": 50,
+              "y": 100,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "A-3-02",
+              "col": 2,
+              "x": 80,
+              "y": 100,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "A-3-03",
+              "col": 3,
+              "x": 110,
+              "y": 100,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "A-3-04",
+              "col": 4,
+              "x": 140,
+              "y": 100,
+              "priceTier": 2,
+              "status": "reserved"
+            },
+            {
+              "id": "A-3-05",
+              "col": 5,
+              "x": 170,
+              "y": 100,
+              "priceTier": 2,
+              "status": "available"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "label": "Lower Bowl B",
+      "transform": {
+        "x": 200,
+        "y": 0,
+        "scale": 1
+      },
+      "rows": [
+        {
+          "index": 1,
+          "seats": [
+            {
+              "id": "B-1-01",
+              "col": 1,
+              "x": 250,
+              "y": 40,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "B-1-02",
+              "col": 2,
+              "x": 280,
+              "y": 40,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "B-1-03",
+              "col": 3,
+              "x": 310,
+              "y": 40,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "B-1-04",
+              "col": 4,
+              "x": 340,
+              "y": 40,
+              "priceTier": 3,
+              "status": "sold"
+            },
+            {
+              "id": "B-1-05",
+              "col": 5,
+              "x": 370,
+              "y": 40,
+              "priceTier": 3,
+              "status": "available"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "seats": [
+            {
+              "id": "B-2-01",
+              "col": 1,
+              "x": 250,
+              "y": 70,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "B-2-02",
+              "col": 2,
+              "x": 280,
+              "y": 70,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "B-2-03",
+              "col": 3,
+              "x": 310,
+              "y": 70,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "B-2-04",
+              "col": 4,
+              "x": 340,
+              "y": 70,
+              "priceTier": 3,
+              "status": "held"
+            },
+            {
+              "id": "B-2-05",
+              "col": 5,
+              "x": 370,
+              "y": 70,
+              "priceTier": 3,
+              "status": "available"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "label": "Upper Bowl",
+      "transform": {
+        "x": 0,
+        "y": 150,
+        "scale": 0.8
+      },
+      "rows": [
+        {
+          "index": 1,
+          "seats": [
+            {
+              "id": "C-1-01",
+              "col": 1,
+              "x": 100,
+              "y": 200,
+              "priceTier": 4,
+              "status": "available"
+            },
+            {
+              "id": "C-1-02",
+              "col": 2,
+              "x": 130,
+              "y": 200,
+              "priceTier": 4,
+              "status": "available"
+            },
+            {
+              "id": "C-1-03",
+              "col": 3,
+              "x": 160,
+              "y": 200,
+              "priceTier": 4,
+              "status": "available"
+            },
+            {
+              "id": "C-1-04",
+              "col": 4,
+              "x": 190,
+              "y": 200,
+              "priceTier": 4,
+              "status": "available"
+            },
+            {
+              "id": "C-1-05",
+              "col": 5,
+              "x": 220,
+              "y": 200,
+              "priceTier": 4,
+              "status": "reserved"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "seats": [
+            {
+              "id": "C-2-01",
+              "col": 1,
+              "x": 100,
+              "y": 230,
+              "priceTier": 4,
+              "status": "available"
+            },
+            {
+              "id": "C-2-02",
+              "col": 2,
+              "x": 130,
+              "y": 230,
+              "priceTier": 4,
+              "status": "available"
+            },
+            {
+              "id": "C-2-03",
+              "col": 3,
+              "x": 160,
+              "y": 230,
+              "priceTier": 4,
+              "status": "available"
+            },
+            {
+              "id": "C-2-04",
+              "col": 4,
+              "x": 190,
+              "y": 230,
+              "priceTier": 4,
+              "status": "available"
+            },
+            {
+              "id": "C-2-05",
+              "col": 5,
+              "x": 220,
+              "y": 230,
+              "priceTier": 4,
+              "status": "available"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
